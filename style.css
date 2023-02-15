@@ -1,0 +1,71 @@
+.navbar > .container {
+  justify-content: space-evenly;
+}
+
+.navbar > .container .border {
+  border: 1px solid #dee2e6 !important;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  width: 36%;
+  padding: 0.25rem;
+}
+
+.border p {
+  margin: 0;
+}
+
+#secondNav {
+  background-color: #eaedf2;
+}
+
+#secondNav li a {
+  color: black;
+  font-weight: bold;
+}
+
+#heading1{
+    margin-top: 6rem !important;
+    color: white !important;
+}
+
+#para1{
+    margin-top: 10rem !important;
+    color: #a8b6d9 !important;
+}
+#para2{
+    margin-top: 12rem !important;
+    color: #a8b6d9 !important;
+}
+
+#fourthSection{
+    border: 1px solid silver !important;
+    background-color: white !important;
+    padding: 2rem !important;
+    margin-top: 30rem !important;
+    width: 75% !important;
+    border-radius: 1rem !important;
+}
+
+.row .col .card > img {
+  background-color: lightgray !important;
+  padding: 0.5rem !important;
+}
+
+.row .col .card .card-body > div{
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+}
+
+.flex-div{
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.5rem;
+}
+
+.flex-div1{
+  display: flex !important;
+  flex-direction: column !important;
+}

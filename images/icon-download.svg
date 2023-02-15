@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_410" data-name="Group 410" transform="translate(-0.257 0.138)">
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(0.257 -0.138)" fill="#fff" stroke="#383838" stroke-width="2">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13" fill="none"/>
+    </g>
+    <g id="Icon_feather-download" data-name="Icon feather-download" transform="translate(9.113 8.815)">
+      <path id="Path_179" data-name="Path 179" d="M14.906,22.5v2.24a1.139,1.139,0,0,1-1.156,1.12H5.656A1.139,1.139,0,0,1,4.5,24.74V22.5" transform="translate(-4.5 -15.453)" fill="none" stroke="#3776ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_180" data-name="Path 180" d="M10.5,15l2.963,2.8L16.427,15" transform="translate(-8.26 -10.904)" fill="none" stroke="#3776ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_181" data-name="Path 181" d="M18,11.219V4.5" transform="translate(-12.797 -4.5)" fill="none" stroke="#3776ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

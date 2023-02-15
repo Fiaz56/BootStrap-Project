@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootStrap Gallery</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- Logo, searchBar and login/signup -->
+    <nav class="navbar navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/images/logo.svg" alt="Logo" />
+        </a>
+        <span class="border">
+          <p class="text-muted">Search Admin Dashboards, Widgets, Forms</p>
+          <img
+            src="/images/icon-search.svg"
+            class="img-fluid"
+            alt="icon-search"
+          />
+        </span>
+        <div class="d-grid gap-3 d-md-flex justify-content-md-end">
+          <button
+            type="button"
+            class="btn btn-outline-danger position-relative btn-sm"
+          >
+            <img
+              src="/images/icon-cart.svg"
+              class="img-fluid"
+              alt="icon-cart"
+            />
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            >
+              5
+            </span>
+          </button>
+          <button type="button" class="btn btn-primary btn-sm">
+            Login / Signup
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="secondNav">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                All
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Admin Dashboards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">RTL Dashboards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Bundles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Widgets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section Heading -->
+    <div class="position-relative">
+      <img
+        src="/images/banner-bg.svg"
+        class="img-fluid"
+        alt="background-Image"
+      />
+      <h1
+        class="display-4 position-absolute mt-5 top-0 start-50 translate-middle"
+        id="heading1"
+      >
+        Admin & Dashboards
+      </h1>
+
+      <p
+        class="lead position-absolute mt-5 top-0 start-50 translate-middle"
+        id="para1"
+      >
+        Develop dashboards or web apps using our
+      </p>
+      <p
+        class="lead position-absolute mt-5 top-0 start-50 translate-middle"
+        id="para2"
+      >
+        Premium Bootstrap5 templates
+      </p>
+    </div>
+
+    <!-- Hero Section -->
+    <div
+      class="container position-absolute top-100 px-5 py-5 start-50 translate-middle shadow"
+      id="fourthSection"
+    >
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/images/template-01.jpeg"
+              class="card-img-top img-fluid"
+              alt="template-01"
+            />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fw-bold">Arise Admin Dashboard</li>
+            </ul>
+            <div class="card-body">
+              <div class="py-2">
+              <p class="card-text fs-4 fw-bold">$27</p>
+              <div class="flex-div">
+              <img src="./images/icon-download.svg" alt="download-icon" class="img-fluid">
+              <p class="card-text fs-5 fw-bold">1820</p>
+            </div>
+            </div>
+            <button type="button" class="btn btn-outline-danger px-3 me-3 mb-2">Live Demo</button>
+              <button type="button" class="btn btn-primary px-3 mb-2">
+               Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/images/template-02.jpeg"
+              class="card-img-top img-fluid"
+              alt="template-02"
+            />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fw-bold">Arise Admin Dashboard</li>
+            </ul>
+            <div class="card-body">
+              <div class="py-2">
+              <p class="card-text fs-4 fw-bold"><span class="text-decoration-line-through">$65</span> <span class="text-success"> $27</span></p>
+              <div class="flex-div">
+              <img src="./images/icon-download.svg" alt="download-icon" class="img-fluid">
+              <p class="card-text fs-5 fw-bold">1820</p>
+            </div>
+            </div>
+            <button type="button" class="btn btn-outline-danger px-3 me-3 mb-2">Live Demo</button>
+              <button type="button" class="btn btn-primary px-3 mb-2">
+               Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/images/template-03.jpeg"
+              class="card-img-top img-fluid"
+              alt="template-03"
+            />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fw-bold">Arise Admin Dashboard</li>
+            </ul>
+            <div class="card-body">
+              <div class="py-2">
+              <p class="card-text fs-4 fw-bold">$72</p>
+              <div class="flex-div">
+              <img src="./images/icon-download.svg" alt="download-icon" class="img-fluid">
+              <p class="card-text fs-5 fw-bold">1820</p>
+            </div>
+            </div>
+            <button type="button" class="btn btn-outline-danger px-3 me-3 mb-2">Live Demo</button>
+              <button type="button" class="btn btn-primary px-3 mb-2">
+               Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/images/template-04.jpeg"
+              class="card-img-top img-fluid"
+              alt="template-04"
+            />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fw-bold">Arise Admin Dashboard</li>
+            </ul>
+            <div class="card-body">
+              <div class="py-2">
+              <p class="card-text fs-4 fw-bold text-danger">Free</p>
+              <div class="flex-div">
+              <img src="./images/icon-download.svg" alt="download-icon" class="img-fluid">
+              <p class="card-text fs-5 fw-bold">1820</p>
+            </div>
+            </div>
+            <button type="button" class="btn btn-outline-danger px-3 me-3 mb-2">Live Demo</button>
+              <button type="button" class="btn btn-primary px-3 mb-2">
+               Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/images/template-05.jpeg"
+              class="card-img-top img-fluid"
+              alt="template-05"
+            />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fw-bold">Arise Admin Dashboard</li>
+            </ul>
+            <div class="card-body">
+              <div class="py-2">
+              <p class="card-text fs-4 fw-bold">$27</p>
+              <div class="flex-div">
+              <img src="./images/icon-download.svg" alt="download-icon" class="img-fluid">
+              <p class="card-text fs-5 fw-bold">1820</p>
+            </div>
+            </div>
+            <button type="button" class="btn btn-outline-danger px-3 me-3 mb-2">Live Demo</button>
+              <button type="button" class="btn btn-primary px-3 mb-2">
+               Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/images/template-06.jpeg"
+              class="card-img-top img-fluid"
+              alt="template-06"
+            />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fw-bold">Arise Admin Dashboard</li>
+            </ul>
+            <div class="card-body">
+              <div class="py-2">
+              <p class="card-text fs-4 fw-bold">$36</p>
+              <div class="flex-div">
+              <img src="./images/icon-download.svg" alt="download-icon" class="img-fluid">
+              <p class="card-text fs-5 fw-bold">1820</p>
+            </div>
+            </div>
+            <button type="button" class="btn btn-outline-danger px-3 me-3 mb-2">Live Demo</button>
+              <button type="button" class="btn btn-primary px-3 mb-2">
+               Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/images/template-07.jpeg"
+              class="card-img-top img-fluid"
+              alt="template-07"
+            />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fw-bold">Arise Admin Dashboard</li>
+            </ul>
+            <div class="card-body">
+              <div class="py-2">
+                <p class="card-text fs-4 fw-bold"><span class="text-decoration-line-through">$45</span> <span class="text-success"> $18</span></p>
+                <div class="flex-div1">
+                  <p class="card-text fs-5 fw-bold">1820 <span class="text-muted fs-6 d-block text-end">Sales</span> </p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-danger px-3 me-3 mb-2">Live Demo</button>
+              <button type="button" class="btn btn-primary px-3 mb-2">
+               Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/images/template-08.jpeg"
+              class="card-img-top img-fluid"
+              alt="template-08"
+            />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fw-bold">Arise Admin Dashboard</li>
+            </ul>
+            <div class="card-body">
+              <div class="py-2">
+                <p class="card-text fs-4 fw-bold">$27</p>
+                <div class="flex-div1">
+                  <p class="card-text fs-5 fw-bold">1820 <span class="text-muted fs-6 d-block text-end">Sales</span> </p>
+                </div>
+              </div>
+              <button type="button" class="btn btn-outline-danger px-3 me-3 mb-2">Live Demo</button>
+              <button type="button" class="btn btn-primary px-3 mb-2">
+                Add to Cart
+              </button>
+            </div>
+            </div>
+          </div>
+         <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="/images/template-09.jpeg"
+                class="card-img-top img-fluid"
+                alt="template-09"
+              />
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item fw-bold">Arise Admin Dashboard</li>
+              </ul>
+              <div class="card-body">
+                <div class="py-2">
+                 <p class="card-text fs-4 fw-bold">$27</p>
+                 <div class="flex-div1">
+                  <p class="card-text fs-5 fw-bold">1820 <span class="text-muted fs-6 d-block text-end">Sales</span> </p>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-outline-danger px-3 me-3 mb-2">Live Demo</button>
+                <button type="button" class="btn btn-primary px-3 mb-2">
+                  Add to Cart
+                </button>
+              </div>
+              </div>
+          </div>
+        </div>
+
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
